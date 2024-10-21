@@ -21,7 +21,9 @@ export default function Blockchain() {
           </p>
           <Link
             href="/ride"
-            className="bg-[#121212] text-white px-8 py-3 rounded-lg text-lg transition duration-300 hover:bg-green-500">
+            className="bg-[#121212] text-white px-8 py-3 rounded-lg text-lg transition duration-300 hover:bg-green-500"
+            legacyBehavior
+          >
             
               Book a Ride
             

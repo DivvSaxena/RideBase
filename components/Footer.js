@@ -10,30 +10,58 @@ const Footer = () => {
           <div className="mb-8 md:mb-0">
             <h2 className="text-2xl font-bold mb-2 font-jeko">Ridebase</h2>
             <p className="max-w-md text-sm text-gray-400">
-              Request a ride, hop in, and go and don't worry about the inaccurate prices cause it's decentralised
+              Request a ride, hop in, and go and don&apos;t worry about the inaccurate prices cause it&apos;s decentralised
             </p>
           </div>
           <div className="flex space-x-12 md:space-x-24">
             <div>
               <h3 className="text-lg font-semibold mb-4 font-jeko">Company</h3>
               <ul className="space-y-2">
-                <li><Link href="/about" className="text-sm text-gray-400 hover:text-white">About</Link></li>
-                <li><Link href="/blog" className="text-sm text-gray-400 hover:text-white">Blog</Link></li>
-                <li><Link href="/partners" className="text-sm text-gray-400 hover:text-white">Partners</Link></li>
+                <li>
+                  <Link href="/about" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">About</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">Blog</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/partners" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">Partners</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4 font-jeko">Solutions</h3>
               <ul className="space-y-2">
-                <li><Link href="/marketing" className="text-sm text-gray-400 hover:text-white">Marketing</Link></li>
-                <li><Link href="/analytics" className="text-sm text-gray-400 hover:text-white">Analytics</Link></li>
+                <li>
+                  <Link href="/marketing" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">Marketing</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/analytics" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">Analytics</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4 font-jeko">Legal</h3>
               <ul className="space-y-2">
-                <li><Link href="/claim" className="text-sm text-gray-400 hover:text-white">Claim</Link></li>
-                <li><Link href="/privacy" className="text-sm text-gray-400 hover:text-white">Privacy</Link></li>
+                <li>
+                  <Link href="/claim" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">Claim</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy" legacyBehavior>
+                    <a className="text-sm text-gray-400 hover:text-white">Privacy</a>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
